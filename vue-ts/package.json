@@ -1,0 +1,24 @@
+{
+  "name": "vue-ts",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "orval": "orval --config ./orval.config.cjs"
+  },
+  "dependencies": {
+    "@tanstack/vue-query": "^4.35.3",
+    "axios": "^1.5.0",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "orval": "^6.17.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vue-tsc": "^1.8.5"
+  }
+}
