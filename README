@@ -1,7 +1,5 @@
 # Integração Automatizada com Swagger e Orval
 
- <!-- com React, Next, Vue e Angular usando Orval.js -->
-
 Este README fornece um guia sobre como utilizar e integrar automaticamente o `Swagger` em suas aplicações front-end desenvolvidas com React, Next.js, Vue, Angular e Svelte, utilizando a poderosa ferramenta `Orval`. Com a integração automatizada do Swagger, você pode economizar tempo e garantir que sua documentação de API esteja sempre atualizada em suas aplicações.
 
 ## O que é o Orval?
