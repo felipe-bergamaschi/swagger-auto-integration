@@ -9,17 +9,6 @@ module.exports = {
 
       client: 'angular',
       target: path.resolve(__dirname, './src/query.ts'),
-
-      // override: {
-      //   mutator: {
-      //     path: require.resolve('./src/api/axios.ts'),
-      //     name: 'request'
-      //   },
-      //   query: {
-      //     useQuery: true,
-      //   },
-      //   header: () => '//@ts-nocheck\n'
-      // }
     },
 
     input: {
