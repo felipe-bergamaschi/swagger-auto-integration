@@ -1,0 +1,9 @@
+.header {
+  justify-content: center;
+  gap: 16px;
+}
+
+.header img {
+  width: 48px;
+  height: 48px;
+}
