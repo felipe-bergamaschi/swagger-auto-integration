@@ -1,26 +1,26 @@
 # Integração Automatizada com Swagger e Orval
 
-Este README fornece um guia sobre como utilizar e integrar automaticamente o `Swagger` em suas aplicações front-end desenvolvidas com React, Next.js, Vue, Angular e Svelte, utilizando a poderosa ferramenta `Orval`. Com a integração automatizada do Swagger, você pode economizar tempo e garantir que sua documentação de API esteja sempre atualizada em suas aplicações.
+Este README fornece um guia sobre como utilizar e integrar automaticamente o `Swagger` em suas aplicações frontend desenvolvidas com React, Next.js, Vue, Angular e Svelte, utilizando a poderosa ferramenta `Orval`. Com a integração automatizada do Swagger, você pode economizar tempo e garantir que sua documentação de API esteja sempre atualizada em suas aplicações.
 
 ## O que é o Orval?
 
-O Orval é uma biblioteca JavaScript que simplifica a integração do Swagger em projetos front-end. Ele oferece suporte para várias estruturas, incluindo React, Vue, Angular e Svelte, e automatiza a geração de código e a documentação da API a partir de uma especificação do Swagger. Isso permite que você mantenha seus aplicativos atualizados com as mudanças na API sem a necessidade de atualizações manuais.
+O Orval é uma biblioteca JavaScript que simplifica a integração do Swagger em projetos frontend. Ele oferece suporte para várias estruturas, incluindo React, Vue, Angular e Svelte, e automatiza a geração de código e a documentação da API a partir de uma especificação do Swagger. Isso permite que você mantenha seus aplicativos atualizados com as mudanças na API sem a necessidade de atualizações manuais.
 
 ## Pré-requisitos
 
 Antes de começar, certifique-se de ter o seu projeto React, Next.js, Vue, Angular ou Svelte já configurado, ou se quiser pode ver mais detalhes nos exemplos acima.
 
-## Instalação do Orval.js
+## Instalação do Orval
 
-Para começar, instale o Orval.js em seu projeto. Você pode fazê-lo executando o seguinte comando no diretório raiz do seu projeto:
+Para começar, instale o Orval em seu projeto. Você pode fazê-lo executando o seguinte comando no diretório raiz do seu projeto:
 
 ```bash
 npm install --save-dev @orval/core
 ```
 
-## Configuração do Orval.js
+## Configuração do Orval
 
-Agora, você precisa configurar o Orval.js para o seu projeto. Crie um arquivo de configuração `orval.config.js` no diretório raiz do seu projeto com a seguinte estrutura:
+Agora, você precisa configurar o Orval para o seu projeto. Crie um arquivo de configuração `orval.config.js` no diretório raiz do seu projeto com a seguinte estrutura:
 
 ```javascript
 // orval.config.cjs
@@ -51,7 +51,7 @@ Agora adicione um script do orval no seu `package.json`
 
 ## Geração Automática de Código
 
-Agora, você pode gerar automaticamente o código a partir da especificação do Swagger usando o Orval.js. Execute o seguinte comando no diretório raiz do seu projeto:
+Agora, você pode gerar automaticamente o código a partir da especificação do Swagger usando o Orval. Execute o seguinte comando no diretório raiz do seu projeto:
 
 ```bash
 npm run orval
@@ -61,7 +61,7 @@ Isso criará um arquivo `query.ts` (ou o caminho especificado em `backend -> tar
 
 ## Uso em Projetos
 
-Depois de gerar o código com o Orval.js, você pode usá-lo em seus projetos front-end. Importe as funções e tipos gerados em seus componentes ou serviços para começar a fazer chamadas à API.
+Depois de gerar o código com o Orval, você pode usá-lo em seus projetos frontend. Importe as funções e tipos gerados em seus componentes ou serviços para começar a fazer chamadas à API.
 
 Aqui está um exemplo de como usar as funções geradas em um componente React:
 
@@ -91,11 +91,11 @@ function MyComponent() {
 
 ## Atualização Automática da Documentação da API
 
-Com o Orval.js, você pode manter a documentação da API atualizada automaticamente em seu aplicativo. Sempre que houver mudanças na especificação do Swagger, basta executar novamente o comando `npm run orval` para regenerar o código e atualizar a documentação em seu projeto.
+Com o Orval, você pode manter a documentação da API atualizada automaticamente em seu aplicativo. Sempre que houver mudanças na especificação do Swagger, basta executar novamente o comando `npm run orval` para regenerar o código e atualizar a documentação em seu projeto.
 
 ## Conclusão
 
-A integração automatizada do Swagger em aplicações usando o Orval simplifica o processo de desenvolvimento e garante que sua aplicação front-end esteja sempre em conformidade com a API. Aproveite essa ferramenta poderosa para economizar tempo e evitar erros manuais na integração do Swagger.
+A integração automatizada do Swagger em aplicações usando o Orval simplifica o processo de desenvolvimento e garante que sua aplicação frontend esteja sempre em conformidade com a API. Aproveite essa ferramenta poderosa para economizar tempo e evitar erros manuais na integração do Swagger.
 
 Para obter mais informações sobre o Orval e suas opções de configuração, consulte a documentação oficial em [link para a documentação oficial](https://orval.dev/overview).
 
