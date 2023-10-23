@@ -15,7 +15,7 @@ Antes de começar, certifique-se de ter o seu projeto React, Next.js, Vue, Angul
 Para começar, instale o Orval em seu projeto. Você pode fazê-lo executando o seguinte comando no diretório raiz do seu projeto:
 
 ```bash
-npm install --save-dev @orval/core
+npm install --save-dev orval
 ```
 
 ## Configuração do Orval
